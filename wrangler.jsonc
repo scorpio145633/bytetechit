@@ -1,0 +1,16 @@
+{
+  // Cloudflare Workers 配置文件
+  // 项目名称 - 必需字段
+  "name": "bytetech",
+  
+  // 兼容性日期 - 必需字段，用于确定 Workers 运行时的行为
+  "compatibility_date": "2024-12-01",
+  
+  // Worker 入口文件
+  "main": "src/index.ts",
+  
+  // 静态资源目录配置
+  "assets": {
+    "directory": "./public"
+  }
+}

@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BYTEtech - Your IT Partner in Yerevan</title>
+  <meta name="description" content="BYTEtech provides comprehensive IT services in Yerevan, Armenia. Web development, UI/UX design, custom software, and IT support with local presence and global expertise.">
+  <meta property="og:title" content="BYTEtech - Your IT Partner in Yerevan">
+  <meta property="og:description" content="Local presence, global expertise. Comprehensive IT services including web development, UI/UX design, custom software, and 24/7 IT support.">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body data-page="home">
+  <!-- Skip Link -->
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <!-- Navigation -->
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <div class="container nav-inner">
+      <a href="index.html" class="logo" aria-label="BYTEtech Home">
+        <span class="logo-byte">BYTE</span><span class="logo-tech">tech</span>
+      </a>
+      <ul class="nav-menu">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="services.html" class="nav-link">Services</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="nav-overlay" aria-hidden="true"></div>
+  <div class="mobile-menu" id="mobile-menu" role="dialog" aria-label="Mobile navigation">
+    <a href="index.html" class="nav-link">Home</a>
+    <a href="services.html" class="nav-link">Services</a>
+    <a href="about.html" class="nav-link">About</a>
+    <a href="contact.html" class="nav-link">Contact</a>
+  </div>
+
+  <!-- Main Content -->
+  <main id="main">
+    <!-- Hero Section -->
+    <section class="hero" style="background-image: url('assets/images/hero-bg.png'); background-size: cover; background-position: center;">
+      <div class="container">
+        <div class="hero-content">
+          <h1>Your IT Partner in Yerevan</h1>
+          <p class="subtagline">Local presence, global expertise.</p>
+          <div class="hero-buttons">
+            <a href="services.html#services" class="btn btn-primary">Explore Services</a>
+            <a href="contact.html#form" class="btn btn-secondary">Get a Quote</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Preview Section -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-header">
+          <h2>Our Services</h2>
+          <p>Comprehensive IT solutions tailored to your business needs. From support to development, we deliver excellence.</p>
+        </div>
+        <div class="services-grid">
+          <!-- IT Support Card -->
+          <article class="card">
+            <div class="card-icon">
+              <img src="assets/images/it-support.png" alt="IT Support Icon" style="width:60px;height:60px;object-fit:contain;">
+            </div>
+            <h3>IT Support &amp; Maintenance</h3>
+            <p>24/7 technical support and system maintenance</p>
+            <ul class="checklist">
+              <li>24/7 technical support</li>
+              <li>System monitoring</li>
+              <li>Regular updates and patches</li>
+            </ul>
+            <div class="tags">
+              <span class="tag">Help Desk</span>
+              <span class="tag">Monitoring Tools</span>
+              <span class="tag">Ticketing Systems</span>
+              <span class="tag">Remote Support</span>
+              <span class="tag">Documentation</span>
+            </div>
+            <a href="services.html#it-support" class="btn btn-secondary" style="margin-top:1.5rem;">View details</a>
+          </article>
+
+          <!-- Web Development Card -->
+          <article class="card">
+            <div class="card-icon">
+              <img src="assets/images/web-dev.png" alt="Web Development Icon" style="width:60px;height:60px;object-fit:contain;">
+            </div>
+            <h3>Web Development</h3>
+            <p>Modern, responsive websites and web applications</p>
+            <ul class="checklist">
+              <li>Responsive web design</li>
+              <li>Progressive Web Apps (PWA)</li>
+              <li>E-commerce platforms</li>
+            </ul>
+            <div class="tags">
+              <span class="tag">React</span>
+              <span class="tag">Vue.js</span>
+              <span class="tag">Next.js</span>
+              <span class="tag">WordPress</span>
+              <span class="tag">Shopify</span>
+            </div>
+            <a href="services.html#web-dev" class="btn btn-secondary" style="margin-top:1.5rem;">View details</a>
+          </article>
+
+          <!-- UI/UX Design Card -->
+          <article class="card">
+            <div class="card-icon">
+              <img src="assets/images/ui-ux.png" alt="UI/UX Design Icon" style="width:60px;height:60px;object-fit:contain;">
+            </div>
+            <h3>UI/UX Design</h3>
+            <p>Beautiful, intuitive interfaces that users love</p>
+            <ul class="checklist">
+              <li>User research and persona development</li>
+              <li>Wireframing and prototyping</li>
+              <li>Visual design and branding</li>
+            </ul>
+            <div class="tags">
+              <span class="tag">Figma</span>
+              <span class="tag">Adobe XD</span>
+              <span class="tag">Sketch</span>
+              <span class="tag">InVision</span>
+              <span class="tag">Principle</span>
+            </div>
+            <a href="services.html#ui-ux" class="btn btn-secondary" style="margin-top:1.5rem;">View details</a>
+          </article>
+
+          <!-- Custom Software Card -->
+          <article class="card">
+            <div class="card-icon">
+              <img src="assets/images/custom-software.png" alt="Custom Software Icon" style="width:60px;height:60px;object-fit:contain;">
+            </div>
+            <h3>Custom Software Development</h3>
+            <p>Tailored software solutions for your unique business needs</p>
+            <ul class="checklist">
+              <li>Full-stack custom application development</li>
+              <li>Enterprise software solutions</li>
+              <li>Legacy system modernization</li>
+            </ul>
+            <div class="tags">
+              <span class="tag">React</span>
+              <span class="tag">Node.js</span>
+              <span class="tag">Python</span>
+              <span class="tag">.NET</span>
+              <span class="tag">Java</span>
+            </div>
+            <a href="services.html#custom-software" class="btn btn-secondary" style="margin-top:1.5rem;">View details</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why BYTEtech Section -->
+    <section class="section" style="background:var(--panel);">
+      <div class="container">
+        <div class="section-header">
+          <h2>Why BYTEtech</h2>
+          <p>We combine local expertise with global standards to deliver exceptional IT solutions.</p>
+        </div>
+        <div class="value-grid">
+          <!-- Local Presence -->
+          <div class="value-item">
+            <div class="value-icon">
+              <img src="assets/images/icon-location.png" alt="Local Presence" style="width:50px;height:50px;object-fit:contain;">
+            </div>
+            <div>
+              <h4>Local Presence in Yerevan</h4>
+              <p>Based in Yerevan, we understand the local market and provide face-to-face support when you need it.</p>
+            </div>
+          </div>
+
+          <!-- Global Delivery -->
+          <div class="value-item">
+            <div class="value-icon">
+              <img src="assets/images/icon-global.png" alt="Global Delivery" style="width:50px;height:50px;object-fit:contain;">
+            </div>
+            <div>
+              <h4>Global Delivery</h4>
+              <p>Our team delivers projects to clients worldwide, following international best practices and standards.</p>
+            </div>
+          </div>
+
+          <!-- 24/7 Support -->
+          <div class="value-item">
+            <div class="value-icon">
+              <img src="assets/images/icon-support.png" alt="24/7 Support" style="width:50px;height:50px;object-fit:contain;">
+            </div>
+            <div>
+              <h4>24/7 Support</h4>
+              <p>Round-the-clock technical support ensures your systems are always running smoothly.</p>
+            </div>
+          </div>
+
+          <!-- Modern Stack -->
+          <div class="value-item">
+            <div class="value-icon">
+              <img src="assets/images/icon-stack.png" alt="Modern Stack" style="width:50px;height:50px;object-fit:contain;">
+            </div>
+            <div>
+              <h4>Modern Stack</h4>
+              <p>We use cutting-edge technologies and frameworks to build future-proof solutions.</p>
+            </div>
+          </div>
+
+          <!-- End-to-end Delivery -->
+          <div class="value-item">
+            <div class="value-icon">
+              <img src="assets/images/icon-delivery.png" alt="End-to-end Delivery" style="width:50px;height:50px;object-fit:contain;">
+            </div>
+            <div>
+              <h4>End-to-end Delivery</h4>
+              <p>From concept to deployment and beyond, we handle every aspect of your project.</p>
+            </div>
+          </div>
+
+          <!-- Transparent Process -->
+          <div class="value-item">
+            <div class="value-icon">
+              <img src="assets/images/icon-transparent.png" alt="Transparent Process" style="width:50px;height:50px;object-fit:contain;">
+            </div>
+            <div>
+              <h4>Transparent Process</h4>
+              <p>Clear communication, regular updates, and full visibility into project progress.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technologies Overview -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Technologies We Use</h2>
+          <p>Our team is proficient in a wide range of modern technologies and tools.</p>
+        </div>
+        <div class="tech-group">
+          <h4>Frontend</h4>
+          <div class="tags">
+            <span class="tag">React</span>
+            <span class="tag">Vue.js</span>
+            <span class="tag">Next.js</span>
+            <span class="tag">TypeScript</span>
+            <span class="tag">HTML5</span>
+            <span class="tag">CSS3</span>
+          </div>
+        </div>
+        <div class="tech-group">
+          <h4>Backend</h4>
+          <div class="tags">
+            <span class="tag">Node.js</span>
+            <span class="tag">Python</span>
+            <span class="tag">.NET</span>
+            <span class="tag">Java</span>
+            <span class="tag">PHP</span>
+          </div>
+        </div>
+        <div class="tech-group">
+          <h4>CMS &amp; E-commerce</h4>
+          <div class="tags">
+            <span class="tag">WordPress</span>
+            <span class="tag">Shopify</span>
+            <span class="tag">WooCommerce</span>
+            <span class="tag">Magento</span>
+          </div>
+        </div>
+        <div class="tech-group">
+          <h4>Design Tools</h4>
+          <div class="tags">
+            <span class="tag">Figma</span>
+            <span class="tag">Adobe XD</span>
+            <span class="tag">Sketch</span>
+            <span class="tag">InVision</span>
+            <span class="tag">Principle</span>
+          </div>
+        </div>
+        <div class="tech-group">
+          <h4>IT Operations</h4>
+          <div class="tags">
+            <span class="tag">Help Desk</span>
+            <span class="tag">Monitoring Tools</span>
+            <span class="tag">Ticketing Systems</span>
+            <span class="tag">Remote Support</span>
+            <span class="tag">Documentation</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Band -->
+    <section class="cta-band">
+      <div class="container">
+        <h2>Ready to Start Your Project?</h2>
+        <p>Let's discuss how we can help transform your business with technology.</p>
+        <a href="contact.html" class="btn btn-primary">Get in Touch</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <a href="index.html" class="logo" aria-label="BYTEtech Home">
+            <span class="logo-byte">BYTE</span><span class="logo-tech">tech</span>
+          </a>
+          <p>Your IT Partner in Yerevan. Local presence, global expertise.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <a href="index.html">Home</a>
+          <a href="services.html">Services</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-links">
+          <h4>Connect</h4>
+          <div class="social-links">
+            <a href="#" aria-label="LinkedIn">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                <rect x="2" y="9" width="4" height="12"/>
+                <circle cx="4" cy="4" r="2"/>
+              </svg>
+            </a>
+            <a href="#" aria-label="Twitter">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/>
+              </svg>
+            </a>
+            <a href="#" aria-label="GitHub">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 BYTEtech. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" aria-label="Back to top">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <polyline points="18 15 12 9 6 15"/>
+    </svg>
+  </button>
+
+  <script src="assets/main.js"></script>
+</body>
+</html>
